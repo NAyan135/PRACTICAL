@@ -1,4 +1,8 @@
-fonts used to make the webpage
+fonts used to make the webpage: https://fonts.google.com/
 font-family: 'Edu VIC WA NT Beginner', cursive;
 font-family: 'Varela Round', sans-serif;
 font-family: 'Poppins', sans-serif;
+
+matrials used 
+icons: https://fonts.google.com/icons
+<span class="material-symbols-outlined">
