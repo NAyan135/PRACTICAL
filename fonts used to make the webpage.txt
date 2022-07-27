@@ -1,0 +1,4 @@
+fonts used to make the webpage
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Poppins', sans-serif;
