@@ -68,11 +68,18 @@ label{
         border-color: #000;
         padding: 8px;
         margin: 5px;
+        display: flexbox;
 
     }
     input:hover{
         box-shadow: none;
         
+    }
+   #USERNAME{
+        margin-top: 70px;
+    }
+    #r{
+        margin-bottom: 40px;
     }
 *{
     margin: 0;
@@ -81,8 +88,8 @@ label{
 .g{
     display: inline-flex;
     box-sizing: content-box;
-    margin: 0;
-    padding: 0;
+   margin-left: 1px;
+    padding: 9px;
 }
 .warn{
  display: inline-flex;
