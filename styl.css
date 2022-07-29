@@ -40,7 +40,8 @@ button{
 
 }
 button:hover{
-    filter: invert(100%);
+    background-color: #000;
+    color: #fff;
 }
 .button2{
     background-color: #4CAF50;
@@ -107,4 +108,7 @@ p{
  display:inline-flex;
  align-items: baseline;
  
+}
+a{
+    text-decoration: none;
 }
