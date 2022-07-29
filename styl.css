@@ -13,7 +13,8 @@ body {
     place-items: center;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
-    background: #ecf0f3;  
+  background: linear-gradient(50deg, rgba(215, 100, 233, 0.678),  rgba(90, 199, 47, 0.815));  
+  background: ra;
 }
 form{
     
