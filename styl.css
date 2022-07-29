@@ -98,3 +98,13 @@ label{
  padding: auto;
  align-items: left;
 }
+p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: xx-large;
+    padding-top: 48px;
+}
+.div3{
+ display:inline-flex;
+ align-items: baseline;
+ 
+}
