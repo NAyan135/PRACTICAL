@@ -14,22 +14,19 @@ body {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
   background: linear-gradient(50deg, rgba(215, 100, 233, 0.678),  rgba(90, 199, 47, 0.815));  
-  background: ra;
+   
 }
 form{
     
     border: 2px solid rgb(255, 255, 255);
     border-radius: 9px;
  font-family: 'Varela Round', sans-serif;;
-    width: 500px;
+    width: auto;
     font-style: oblique;
     overflow: hidden;
-    opacity: 0.8;
-    background-color: #ccc7c747;
+    opacity: 1.0;
+    background-color: #c0bebe47;
 }
- background-color: rgba(0,0,0,.5);
- 
- 
 
 .button1{
     border: 1px solid green;
@@ -60,6 +57,7 @@ form{
     cursor: pointer;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     border-block: 1px;
+    text-transform: capitalize;
 }
 .button2:hover{
     background-color: green;
@@ -70,13 +68,13 @@ form{
 }
 label{
     display: inline-block;
-    width: 100px;
+    width: 150px;
     padding: 8px;
     margin: 4px;
 }
     input{
         border-radius: 8px;
-        border-color: #000;
+        border-color: rgb(180, 179, 179);
         padding: 8px;
         margin: 5px;
 
@@ -85,15 +83,26 @@ label{
         box-shadow: none;
         
     }
+    input:focus{
+        box-shadow: inset cornsilk;
+        border-color: rgb(245, 245, 244);
+    }
    #USERNAME{
         margin-top: 70px;
     }
     #r{
         margin-bottom: 40px;
     }
+    #dob{
+        box-sizing: border-box;
+        width: 200px;
+        margin-top: 6px;
+    }
 *{
     margin: 0;
     padding: 0;
+    -webkit-transition-duration: 0.8s;
+    -webkit-background-clip: inherit;
 }
 .g{
     display: inline-flex;
